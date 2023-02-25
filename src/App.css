@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  background-color:black;
+
+}
+
+.title {
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  height:200px;
+  padding: 50;
+  background-color: #00262b;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color:black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+font-size:100%;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#000000;
+background-color:#FFFFFF;
+}
+
+h1{font-size:1.5em;}
+/* h2{font-size:1.2em; color:#333333;} */
+h2{font-size:1.2em; color:#CCCCCC; padding-top: 50px; padding-bottom: 25px;}
+h3{font-size:1em; color:#666666;}
+h4{font-size:.9em; color:#999999;}
+h5{font-size:.8em; color:#CCCCCC;}
+h6{font-size:.7em; color:#666600;}
+
+p, blockquote, ul{
+font-size:.8em;
+}
+
+p{
+font-weight:bold;
+}
+
+blockquote{
+padding:5px;
+border:1px solid #999999;
+background-color:#DEDEDE;
+}
+
+ul{
+font-variant:small-caps;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+
+  /* Because we want header to be sticky later */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
+}
